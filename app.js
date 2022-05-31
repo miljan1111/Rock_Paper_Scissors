@@ -2,6 +2,7 @@ const game = () => {
     let pScore = 0;
     let cScore = 0;
     
+    
     //start the game
     const startGame = () => {
         const playBtn = document.querySelector('.intro button');
@@ -54,6 +55,9 @@ const game = () => {
        const computerScore = document.querySelector('.computer-score p');
        playerScore.textContent = pScore;
        computerScore.textContent = cScore;
+       //resolts for console uncoment
+       //console.log(pScore);
+       //console.log(cScore);
     }
 
     const compareHands = (playerChoise, computerChoise) => {
